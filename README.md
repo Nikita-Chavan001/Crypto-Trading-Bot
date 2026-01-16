@@ -1,5 +1,4 @@
 # Crypto-Trading-Bot
-
 ## Overview
 
 This project is a **simplified trading bot** built using Python and the official **Binance Futures API**. The bot interacts with the **Binance Futures Testnet (USDT-M)** and allows users to place market, limit, and stop-limit orders through a **command-line interface (CLI)**.
@@ -18,12 +17,37 @@ All trades are executed on the **testnet**, so no real funds are used.
 ## Features
 
 * Supports **Binance Futures Testnet (USDT-M)**
+
 * Place **Market Orders**
+
 * Place **Limit Orders**
+
 * Bonus: **Stop-Limit Orders**
+
 * Supports **BUY and SELL** order sides
+
+* **Balance check before placing orders**
+
 * Interactive **CLI-based interface**
+
 * Logs API requests, responses, and errors
+
+* Clean, class-based and reusable design
+
+* Supports **Binance Futures Testnet (USDT-M)**
+
+* Place **Market Orders**
+
+* Place **Limit Orders**
+
+* Bonus: **Stop-Limit Orders**
+
+* Supports **BUY and SELL** order sides
+
+* Interactive **CLI-based interface**
+
+* Logs API requests, responses, and errors
+
 * Clean, class-based and reusable design
 
 ---
@@ -160,6 +184,13 @@ Errors are logged and do not crash the application.
 
 Possible enhancements include:
 
+* Order status polling to track final execution state
+* Strategy-based execution (Grid / TWAP)
+* Web-based UI (Flask / React)
+* WebSocket-based live updates
+
+Possible enhancements include:
+
 * Balance checks before placing orders
 * Order status polling
 * Strategy-based execution (Grid / TWAP)
@@ -175,5 +206,7 @@ This project is for **educational and evaluation purposes only** and uses the **
 ---
 
 ## Author
+
+Nikita Chavan
 
 Nikita Chavan
