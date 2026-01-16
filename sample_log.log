@@ -1,0 +1,4 @@
+2026-01-16 20:24:24,280 - INFO - Trading bot initialized (Testnet=True)
+2026-01-16 20:24:39,154 - INFO - Leverage set to 10x for BTCUSDT
+2026-01-16 20:24:42,802 - INFO - Placing MARKET order: BUY 0.01 BTCUSDT
+2026-01-16 20:24:43,007 - INFO - Order response: {'orderId': 11734333880, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ97ad634636ea5e07c950d4', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1768575282885}
