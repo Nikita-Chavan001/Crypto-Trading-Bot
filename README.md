@@ -75,7 +75,7 @@ Before running the bot, ensure you have:
 ### 1. Install Dependencies
 
 ```bash
-pip install python-binance
+pip install -r requirements.txt
 ```
 
 ---
